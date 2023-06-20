@@ -1,0 +1,41 @@
+<html>
+    <head>
+       <title>My Selfie App</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link href="style.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+</head>
+ 
+<body>
+    
+    <center>
+       <a href="" id="link" download="selfie.png"></a>
+        <h2>Voice Selfie App
+    <img  id="logo_img" src="selfie.jpeg">
+    </h2>
+    <hr>
+    <h3>Please press allow as soon as popup comes. After you give a voice command</h3>
+    
+    <h2>Say"Take My Selfie"</h2>
+   
+   <h4>Your Voice Output :</h4>
+    <textarea id="textbox" class="form-control" readonly="true"> </textarea>
+    <br>
+    <button onclick="start()"  class="btn btn-success">Start</button> 
+    <h4>Press The Start Button</h4>
+    
+    <h3>Your Webcam :</h3>
+    <div id="camera"></div>
+  
+    <h3>You Selfie Will Display Here :</h3>
+    <div id="result"></div>
+
+</center>
+
+    <script src="main.js"></script>
+</body>
+</html>
